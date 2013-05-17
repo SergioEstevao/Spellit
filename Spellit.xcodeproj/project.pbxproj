@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF12754615EA6563002F757A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF12754515EA6563002F757A /* UIKit.framework */; };
+		FF12754815EA6563002F757A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF12754715EA6563002F757A /* Foundation.framework */; };
+		FF12754A15EA6563002F757A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF12754915EA6563002F757A /* CoreGraphics.framework */; };
+		FF12755015EA6563002F757A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF12754E15EA6563002F757A /* InfoPlist.strings */; };
+		FF12755215EA6563002F757A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF12755115EA6563002F757A /* main.m */; };
+		FF12755615EA6563002F757A /* SEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF12755515EA6563002F757A /* SEAppDelegate.m */; };
+		FF12755915EA6563002F757A /* SEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF12755815EA6563002F757A /* SEViewController.m */; };
+		FF12755C15EA6563002F757A /* SEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF12755A15EA6563002F757A /* SEViewController.xib */; };
+		FF12756A15EA6B24002F757A /* phonetics.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF12756915EA6B24002F757A /* phonetics.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF12754115EA6563002F757A /* Spellit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF12754515EA6563002F757A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF12754715EA6563002F757A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF12754915EA6563002F757A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF12754D15EA6563002F757A /* Spellit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spellit-Info.plist"; sourceTree = "<group>"; };
+		FF12754F15EA6563002F757A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF12755115EA6563002F757A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF12755315EA6563002F757A /* Spellit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spellit-Prefix.pch"; sourceTree = "<group>"; };
+		FF12755415EA6563002F757A /* SEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEAppDelegate.h; sourceTree = "<group>"; };
+		FF12755515EA6563002F757A /* SEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEAppDelegate.m; sourceTree = "<group>"; };
+		FF12755715EA6563002F757A /* SEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEViewController.h; sourceTree = "<group>"; };
+		FF12755815EA6563002F757A /* SEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEViewController.m; sourceTree = "<group>"; };
+		FF12755B15EA6563002F757A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SEViewController.xib; sourceTree = "<group>"; };
+		FF12756915EA6B24002F757A /* phonetics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = phonetics.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF12753E15EA6563002F757A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF12754615EA6563002F757A /* UIKit.framework in Frameworks */,
+				FF12754815EA6563002F757A /* Foundation.framework in Frameworks */,
+				FF12754A15EA6563002F757A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF12753615EA6563002F757A = {
+			isa = PBXGroup;
+			children = (
+				FF12754B15EA6563002F757A /* Spellit */,
+				FF12754415EA6563002F757A /* Frameworks */,
+				FF12754215EA6563002F757A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF12754215EA6563002F757A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF12754115EA6563002F757A /* Spellit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF12754415EA6563002F757A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF12754515EA6563002F757A /* UIKit.framework */,
+				FF12754715EA6563002F757A /* Foundation.framework */,
+				FF12754915EA6563002F757A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF12754B15EA6563002F757A /* Spellit */ = {
+			isa = PBXGroup;
+			children = (
+				FF12755415EA6563002F757A /* SEAppDelegate.h */,
+				FF12755515EA6563002F757A /* SEAppDelegate.m */,
+				FF12755715EA6563002F757A /* SEViewController.h */,
+				FF12755815EA6563002F757A /* SEViewController.m */,
+				FF12755A15EA6563002F757A /* SEViewController.xib */,
+				FF12754C15EA6563002F757A /* Supporting Files */,
+				FF12756915EA6B24002F757A /* phonetics.plist */,
+			);
+			path = Spellit;
+			sourceTree = "<group>";
+		};
+		FF12754C15EA6563002F757A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF12754D15EA6563002F757A /* Spellit-Info.plist */,
+				FF12754E15EA6563002F757A /* InfoPlist.strings */,
+				FF12755115EA6563002F757A /* main.m */,
+				FF12755315EA6563002F757A /* Spellit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF12754015EA6563002F757A /* Spellit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF12756215EA6563002F757A /* Build configuration list for PBXNativeTarget "Spellit" */;
+			buildPhases = (
+				FF12753D15EA6563002F757A /* Sources */,
+				FF12753E15EA6563002F757A /* Frameworks */,
+				FF12753F15EA6563002F757A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spellit;
+			productName = Spellit;
+			productReference = FF12754115EA6563002F757A /* Spellit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF12753815EA6563002F757A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SE;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Sergio Estevao";
+			};
+			buildConfigurationList = FF12753B15EA6563002F757A /* Build configuration list for PBXProject "Spellit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF12753615EA6563002F757A;
+			productRefGroup = FF12754215EA6563002F757A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF12754015EA6563002F757A /* Spellit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF12753F15EA6563002F757A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF12755015EA6563002F757A /* InfoPlist.strings in Resources */,
+				FF12755C15EA6563002F757A /* SEViewController.xib in Resources */,
+				FF12756A15EA6B24002F757A /* phonetics.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF12753D15EA6563002F757A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF12755215EA6563002F757A /* main.m in Sources */,
+				FF12755615EA6563002F757A /* SEAppDelegate.m in Sources */,
+				FF12755915EA6563002F757A /* SEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF12754E15EA6563002F757A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF12754F15EA6563002F757A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF12755A15EA6563002F757A /* SEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF12755B15EA6563002F757A /* en */,
+			);
+			name = SEViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF12756015EA6563002F757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF12756115EA6563002F757A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF12756315EA6563002F757A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spellit/Spellit-Prefix.pch";
+				INFOPLIST_FILE = "Spellit/Spellit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF12756415EA6563002F757A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spellit/Spellit-Prefix.pch";
+				INFOPLIST_FILE = "Spellit/Spellit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF12753B15EA6563002F757A /* Build configuration list for PBXProject "Spellit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF12756015EA6563002F757A /* Debug */,
+				FF12756115EA6563002F757A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF12756215EA6563002F757A /* Build configuration list for PBXNativeTarget "Spellit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF12756315EA6563002F757A /* Debug */,
+				FF12756415EA6563002F757A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF12753815EA6563002F757A /* Project object */;
+}
